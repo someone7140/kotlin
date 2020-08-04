@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS covit19_daily;

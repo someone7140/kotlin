@@ -3,10 +3,7 @@ package com.covit19.command
 import com.covit19.model.api.Covit19Prefecture
 import com.covit19.model.db.Covit19Key
 import com.covit19.model.db.Covit19Summary
-import com.covit19.service.Covid19DailyService
-import com.covit19.service.Covid19SummaryService
 import org.springframework.http.HttpMethod
-import org.springframework.transaction.annotation.Transactional
 import org.springframework.web.client.RestTemplate
 
 object Covid19JapanApiCommand {
