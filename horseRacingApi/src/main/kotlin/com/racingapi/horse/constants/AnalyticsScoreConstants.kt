@@ -1,0 +1,29 @@
+package com.racingapi.horse.constants
+
+// 係数
+const val TOP_FACTOR = 5L
+const val SECOND_FACTOR = 3L
+const val THIRD_FACTOR = 1L
+
+// 同一馬のスコア
+const val SAME_HORSE_SCORE = 300L
+
+// 各種項目のスコア
+const val SAME_WAKU_SCORE = 20L
+const val SAME_JOCKEY_SCORE = 20L
+const val SAME_GENDER_SCORE = 5L
+const val SAME_AGE_SCORE = 5L
+const val SAME_ANCESTOR_SCORE = 5L
+const val TARGET_RACE_TOP_SCORE = 10L
+const val TARGET_RACE_SECOND_SCORE = 7L
+const val TARGET_RACE_THIRD_SCORE = 5L
+const val TARGET_RACE_SAME_COURSE_CONDITION_SCORE = 3L
+const val TARGET_RACE_TIME_SCORE = 10L
+const val PAST_OWN_RACE_TOP_FACTOR = 3L
+const val PAST_OWN_RACE_SECOND_FACTOR = 2L
+const val PAST_OWN_RACE_THIRD_FACTOR = 1L
+const val PAST_TARGET_RACE_TOP_SCORE = 3L
+const val PAST_TARGET_RACE_SECOND_SCORE = 2L
+const val PAST_TARGET_RACE_THIRD_SCORE = 1L
+const val PAST_RACE_SAME_COURSE_CONDITION_SCORE = 1L
+const val PAST_RACE_TIME_SCORE = 3L
