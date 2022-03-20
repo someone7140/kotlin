@@ -1,2 +1,2 @@
 runtime: java11
-entrypoint: 'java -jar com.racingapi.horse-0.0.1-all.jar -config=application_prod.conf -sslPort=443'
+entrypoint: 'java -jar com.racingapi.horse-0.0.1-all.jar -sslPort=443'
