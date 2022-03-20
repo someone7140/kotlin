@@ -6,8 +6,11 @@ import io.ktor.server.netty.*
 import io.ktor.application.*
 import io.ktor.features.*
 import io.ktor.http.*
+import io.ktor.http.content.*
 import io.ktor.jackson.*
+import io.ktor.response.*
 import io.ktor.routing.*
+import java.io.File
 import java.net.URI
 
 fun Application.module() {
@@ -28,6 +31,11 @@ fun Application.module() {
     }
     install(Routing) {
         raceAnalyticsController(environment)
+        static("frontend/") {
+            staticRootFolder = File("./static")
+            files("./")
+            default("index.html")
+        }
     }
 }
 

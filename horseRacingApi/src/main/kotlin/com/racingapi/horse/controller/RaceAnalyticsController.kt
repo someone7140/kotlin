@@ -35,4 +35,5 @@ fun Route.raceAnalyticsController(env: ApplicationEnvironment) {
             }
         }
     }
+
 }
